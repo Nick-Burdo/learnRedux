@@ -20,6 +20,7 @@
     "chai": "^4.1.1",
     "chai-immutable": "^1.6.0",
     "immutable": "^3.8.1",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "redux": "^3.7.2"
   }
 }
