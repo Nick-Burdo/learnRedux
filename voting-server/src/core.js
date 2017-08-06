@@ -68,7 +68,7 @@ const next = (state) => {
  * @returns  next state (immutable Map)
  */
 const vote = (state, entry) => state.updateIn(
-    ['vote', 'tally', entry],
+    ['tally', entry],
     0,
     tally => tally + 1
 );
