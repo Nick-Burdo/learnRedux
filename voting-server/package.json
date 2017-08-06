@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "start": "babel-node index.js"
   },
   "babel": {
     "presets": [
@@ -21,6 +22,7 @@
     "chai-immutable": "^1.6.0",
     "immutable": "^3.8.1",
     "mocha": "^3.5.0",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "socket.io": "^2.0.3"
   }
 }
