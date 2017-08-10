@@ -4,7 +4,7 @@
  * @since 1.0.0
  */
 
-export const SET_ENTRIES = 'SET_STATE';
+export const SET_STATE = 'SET_STATE';
 export const NEXT = 'NEXT';
 export const VOTE = 'VOTE';
 

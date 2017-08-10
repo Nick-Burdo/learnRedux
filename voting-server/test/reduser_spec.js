@@ -23,7 +23,7 @@ describe('reducer', () => {
         }));
     });
 
-    it('handles SET_ENTRIES', () => {
+    it('handles SET_STATE', () => {
         const initialState = Map();
         const action = {
             type: types.SET_ENTRIES,
